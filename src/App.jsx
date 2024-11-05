@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Menu from "./Layout/Sidebar/menu.jsx";
+import { BrowserRouter as Router} from "react-router-dom";
 
 function App() {
 
   return (
-    <>
-      <div className="App">
-          <h1>TESTE</h1>
-      </div>
-    </>
+    <div>
+        <Router>
+            <div className = "App">
+                <Menu/>
+            </div>
+        </Router>
+    </div>
   )
 }
 

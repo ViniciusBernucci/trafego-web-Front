@@ -1,0 +1,12 @@
+/* App.css */
+.activeMenuClicked {
+    color: red;
+}
+
+.user-menu {
+    font-family: "tahoma";
+    font-size: 14px;
+    font-weight: 400;
+    color: inherit; /* Mantém a cor herdada */
+}
+
